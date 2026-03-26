@@ -1,0 +1,47 @@
+:root {
+  --bg: #f6efe5;
+  --surface: rgba(255, 252, 247, 0.88);
+  --surface-soft: #fdf5eb;
+  --border: #e8d8c4;
+  --text-strong: #1f2937;
+  --text-muted: #5f6b76;
+  --accent: #0e7490;
+  --mono: 'Cascadia Code', 'Consolas', monospace;
+  --sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-family: var(--sans);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-strong);
+  background:
+    radial-gradient(circle at top left, rgba(14, 116, 144, 0.18), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(217, 119, 6, 0.14), transparent 28%),
+    var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+code {
+  font-family: var(--mono);
+}
