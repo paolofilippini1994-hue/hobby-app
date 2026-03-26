@@ -68,4 +68,5 @@ function App() {
 }
 
 console.log('App renderizzata 😎') // Log per dimostrare il rendering dell'app.
+console.log('Utente attuale:', localStorage.getItem('utente👌')) // Log per mostrare lo stato utente al momento del rendering.
 export default App
